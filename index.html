@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="es-ES">
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="form1.css">
+</head>
+<body>
+    <div id="contenedor">
+        
+        <div id="header">
+          <h1>Bienvenido a mi pagina web</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li>Inicio</li>
+                <li>Menu1</li>
+                <li>Menu2</li>
+                <li>Menu3</li>
+                <li>Menu4</li>
+                
+            
+            </ul>
+        
+        </div>
+        <div id="contenido">
+            
+            <form action="">
+               <h3>Formulario de Solicitud de Empleo</h3> 
+                <p> Gracias por su interés en trabajar con nosotros. Por favor observe aquí abajo las oportunidades laborales que se adapten a sus criterios y envíe su petición completando este formulario de solicitud de empleo.</p>
+             
+                    <fieldset>
+                        <legend>Información Personal:</legend>
+                        <table >
+                            
+                            <tr>
+                                <td>Nombre Completo</td>
+                                <td><input type="text" id="nombrec" ></td>
+                                <td><input type="text" id="nombrec2"></td>
+                            </tr>
+                            <tr>
+                                <td>Correo</td>
+                                <td><input type="text" id="correo"></td>
+                                <td><input type="text" id="correo22" ></td>
+                            </tr>
+                            <tr>
+                                <td>¿Para qué posición se está postulando?</td>
+                                <td><select id="puesto">
+                                        <option value="Puesto1">Puesto #1</option>
+                                        <option value="Puesto2">Puesto #2</option>
+                                        <option value="Puesto3">Puesto #3</option>    
+                                    </select>
+                                </td>
+                                <td><input type="text" id="puesto22" ></td>
+                            </tr>
+                            <tr>
+                                <td>Fecha disponible para inicio</td>
+                                <td><input type="fecha" id="fecha" ></td>
+                                <td><input type="fecha" id="fecha2" ></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>¿Cuál es su situación laboral actual?</td>
+                                <td><input type="radio" name="situacion" value="empleado"> Empleado 
+                                <input type="radio" name="situacion" value="particular"> Particular
+                                <input type="radio" name="situacion" value="desempleado"> Desempleado
+                                <input type="radio" name="situacion" value="estudiante"> Estudiante</td>
+                                <td><input type="text" id="situacion2" ></td>
+                            </tr>
+                            <tr>
+                                <td>Envíenos su CV a través de una URL</td>
+                                <td> <input type="text" id="url" ></td>
+                                <td> <input type="text" id="url2" ></td>
+                            </tr>
+                            <tr>
+                                <td>¿Le gustaría dar referencias?</td>
+                                <td>
+                                    <input type="radio" name="respuesta" value="si">SI 
+                                    <input type="radio" name="respuesta" value="no">NO
+                                    
+                                </td>
+                                <td> <input type="text" id="respuesta22" ></td>
+                            </tr>
+                            <tr>
+                                <td> Nombre Completo</td>
+                                <td><input type="text" id="nombre2" ></td>
+                                <td><input type="text" id="nombre33" ></td>
+                            </tr>
+                            <tr>
+                                <td>Correo</td>
+                                <td><input type="text" id="correo2" ></td>
+                                <td><input type="text" id="correo33" ></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" value="Enviar" onclick="capturar()"></td>
+                                
+                            </tr>
+                        </table>
+                         <br>
+                            
+                       
+                    </fieldset>
+                                  
+            </form>
+        
+                
+        </div>
+        <div id="footer">
+            <table border=1px;>
+                            
+                            <tr>
+                                <td>Nombre Completo</td>
+                                <td id="nombrepinta"></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>Correo</td>
+                                <td id="correopinta"></td>
+                            </tr>
+                            <tr>
+                                <td>¿Para qué posición se está postulando?</td>
+                                <td id="puestopinta"></td>
+                            </tr>
+                            <tr>
+                                <td>Fecha disponible para inicio</td>
+                                <td id="fechapinta"></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>¿Cuál es su situación laboral actual?</td>
+                                <td id="situacionpinta"></td>
+                            </tr>
+                            <tr>
+                                <td>Envíenos su CV a través de una URL</td>
+                                <td id="urlpinta"></td>
+                            </tr>
+                            <tr>
+                                <td>¿Le gustaría dar referencias?</td>
+                                <td id="respuestapinta"></td>
+                            </tr>
+                            <tr>
+                                <td> Nombre Completo</td>
+                                <td id="nombre2pinta"></td>
+                            </tr>
+                            <tr>
+                                <td>Correo</td>
+                                <td id="correo2pinta"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                
+                            </tr>
+                        </table>
+             </div>
+    
+    </div>
+   
+    <script  type="text/javascript" src="tarea.js"></script>
+
+</body>
+</html>
