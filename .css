@@ -1,0 +1,52 @@
+/*Practica 3 css */
+
+pre{
+    color:black;
+    font-family: courier;
+    font-size: 80%;
+}
+h1{ background-color: red;
+    color: white;
+    border:solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+body{
+    
+    background-color:aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aqua;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color:blue;
+        }
+
+.active {
+    background-color:brown;
+}
